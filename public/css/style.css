@@ -151,6 +151,7 @@ body {
 .navbar-scroll {
   background: #ececec;
   height: 10vh;
+  box-shadow: 1px 1px 13px black;
 }
 
 .navbar-scroll .navbar-links a {
@@ -301,7 +302,7 @@ body {
   line-height: 1.6em;
   padding: 12px 8px;
   font-size: 0.85em;
-  color: #0e005c;
+  color: #07002f;
 }
 
 .text-container h3 {
@@ -428,18 +429,19 @@ li {
 .footer-links {
   display: flex;
   flex-direction: row;
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
 }
 
 .footer-links div {
   width: 100%;
   /* border: 1px solid white; */
-  margin: 10px 10px;
+  margin: 16px 18px;
 }
 
 .footer-copyright {
   /* border: 1px solid white; */
   text-align: center;
   color: white;
+  margin-top: 20px;
 }
